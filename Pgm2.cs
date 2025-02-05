@@ -1,4 +1,4 @@
-// create a program to show the usage of parameterised constructor,parameterless constructor, default constructor
+// create a program to show the usage of static constructor
 using System;
 
 class Example
