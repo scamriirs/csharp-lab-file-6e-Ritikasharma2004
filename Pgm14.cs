@@ -12,8 +12,6 @@ class SeatBookingSystem
     static void Main()
     {
         int choice;
-
-        // Initialize the seats to available (0)
         InitializeSeats();
 
         do
@@ -54,7 +52,6 @@ class SeatBookingSystem
         } while (choice != 5);
     }
 
-    // Initialize all seats as available (0)
     static void InitializeSeats()
     {
         for (int i = 0; i < 5; i++)
@@ -66,7 +63,6 @@ class SeatBookingSystem
         }
     }
 
-    // Display the current seat arrangement
     static void ViewSeats()
     {
         Console.WriteLine("\nCurrent Seat Availability:");
@@ -83,7 +79,6 @@ class SeatBookingSystem
         }
     }
 
-    // Book a seat by providing row and column
     static void BookSeat()
     {
         Console.Write("Enter the row number (0-4): ");
@@ -110,7 +105,6 @@ class SeatBookingSystem
         }
     }
 
-    // Cancel a booking by providing row and column
     static void CancelSeat()
     {
         Console.Write("Enter the row number (0-4): ");
@@ -137,7 +131,6 @@ class SeatBookingSystem
         }
     }
 
-    // Check the availability of a particular seat
     static void CheckAvailability()
     {
         Console.Write("Enter the row number (0-4): ");
